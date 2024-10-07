@@ -2,7 +2,7 @@ const apiKey = '7d5b865ca184439bad0162808240710';
 const defaultCity = 'cairo';
 
 function fetchWeather(city) {
-    const apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=7&aqi=no`;
+    const apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=7&aqi=no`;
 
     fetch(apiUrl)
         .then(response => response.json())
