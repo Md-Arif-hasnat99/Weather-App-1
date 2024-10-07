@@ -86,7 +86,7 @@ input:hover {
 }
 
 .container {
-    margin-top: 4vw;
+    margin-top: 3vw;
         display: flex;
     column-gap: 10vw;
         flex-direction: column;
