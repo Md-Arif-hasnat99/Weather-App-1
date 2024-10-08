@@ -1,4 +1,3 @@
-/* Base styles */
 body {
     background-color: black;
     font-family: "Helvetica Neue", Helvetica;
@@ -86,7 +85,7 @@ input:hover {
 }
 
 .container {
-    margin-top: 3vw;
+    margin-top: 5vw;
         display: flex;
     column-gap: 10vw;
         flex-direction: column;
@@ -96,27 +95,44 @@ input:hover {
 /* Media queries */
 @media (max-width: 1200px) {
     main {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
+.container{
+    margin-top: 10vw;
+}
 
     .day {
         font-size: 2vw;
-        width: 7vw;
+        width: 8.5vw;
     }
 
     .day img {
         width: 7vw;
     }
+    input{
+        width: 10vw;
+        margin-left:2vw !important;
+        margin-bottom: 5vw;
+        font-size: 2vw;
+        font-weight: bolder;
+    }
 }
 
 @media (max-width: 768px) {
     main {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .day {
         font-size: 3vw;
-        width: 10vw;
+        width: 20vw;
+    }
+    input{
+        width: 60vw;
+        margin-left:2vw !important;
+        margin-bottom: 5vw;
+        font-size: 4vw;
+        font-weight: bolder;
     }
 
     .day img {
