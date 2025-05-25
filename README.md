@@ -1,6 +1,6 @@
 
 # Weather App
-This Weather App provides a 7-day weather forecast for any city worldwide. The app fetches weather data from the WeatherAPI and displays it in a user-friendly interface.
+This Weather App provides a 3-day weather forecast for any city worldwide. The app fetches weather data from the WeatherAPI and displays it in a user-friendly interface.
 
 ## Demo
 
