@@ -20,7 +20,6 @@ This Weather App provides a 3-day weather forecast for any city worldwide. The a
 - Search for weather forecasts by city name.
 - Display 3-day weather forecasts, including temperature, weather conditions, and date.
 - Dark mode design for a modern look and feel.
->>>>>>> 34a7e7dfb28c1e63fd16d095ec6053a653c0a45d
 
 ## 🛠️ Tech Stack
 
