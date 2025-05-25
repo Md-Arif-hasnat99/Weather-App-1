@@ -9,7 +9,7 @@ You can access the live demo [here](https://weather-app-roan-three.vercel.app/).
 ## Features
 
 - Search for weather forecasts by city name.
-- Display 6-day weather forecasts, including temperature, weather conditions, and date.
+- Display 3-day weather forecasts, including temperature, weather conditions, and date.
 - Dark mode design for a modern look and feel.
 
 
